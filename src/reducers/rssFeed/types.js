@@ -1,0 +1,3 @@
+export const FETCH_RSS_FEED = 'rssFeed/FETCH_RSS_FEED';
+export const FETCH_RSS_FEED_SUCCESS = 'rssFeed/FETCH_RSS_FEED_SUCCESS';
+export const FETCH_RSS_FEED_FAILURE = 'rssFeed/FETCH_RSS_FEED_FAILURE';

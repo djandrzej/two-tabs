@@ -1,0 +1,6 @@
+{
+  "name": "TabLink",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TabLink.js"
+}

@@ -1,0 +1,4 @@
+--require ./test/testHelper.js
+--compilers js:babel-register
+--recursive
+--require jsdom-global/register

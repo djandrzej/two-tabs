@@ -1,0 +1,6 @@
+coverage/
+dist/
+build/
+node_modules/
+assets/
+src/styles/_normalize.less

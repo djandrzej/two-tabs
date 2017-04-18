@@ -1,0 +1,20 @@
+@import (reference) '../../styles/_variables';
+@import (reference) '../../styles/_mixins';
+
+.TabLink {
+    .fontBold;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 25px;
+    padding-bottom: 7px;
+    color: @linkColor;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        color: @linkHoverColor;
+    }
+}

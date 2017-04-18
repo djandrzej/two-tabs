@@ -1,0 +1,23 @@
+@import (reference) '../../styles/_variables';
+@import (reference) '../../styles/_mixins';
+
+.List {
+    .fontThin;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    &--title {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+
+    &--item {
+        padding-bottom: 4px;
+
+        &-index {
+            display: inline-block;
+            width: 20px;
+            color: @baseGreyLight;
+        }
+    }
+}

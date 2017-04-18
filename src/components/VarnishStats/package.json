@@ -1,0 +1,6 @@
+{
+  "name": "VarnishStats",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./VarnishStats.js"
+}
